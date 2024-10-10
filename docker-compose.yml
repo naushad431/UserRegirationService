@@ -3,7 +3,7 @@ services:
   application: 
     image: user-service
     restart: always
-    build: .
+    build: .    // use to build docker image from dockerfile . docker-compose up --build 
     ports:
      - "8080:8080"
     environment:
